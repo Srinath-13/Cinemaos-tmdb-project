@@ -8,13 +8,13 @@ To run this application via source code:
 * In the project directory, install the dependencies using ### `npm i`
 * Run the application in development mode using ### `npm start` (Open [http://localhost:3000](http://localhost:3000) to view it in your browser.)
 
-##Technologies used
+## Technologies used
 The application was developed using the following technologies
 * [React JS v18.1.0](https://reactjs.org/)
 * HTML5 and CSS3
 * Firebase
 
-##Dependencies
+## Dependencies
 All the dependencies used for the application can be found in the [package.json](https://github.com/Srinath-13/Cinemaos-tmdb-project/blob/master/package.json) file. They are:
 * @material-ui/core: 4.12.4
 * @reduxjs/toolkit: 1.8.1
@@ -32,11 +32,11 @@ All the dependencies used for the application can be found in the [package.json]
 * styled-components: 5.3.5
 * web-vitals: 2.1.4
 
-##License
+## License
 All the data with respect to the movies are sourced from [TMDB](https://www.themoviedb.org/) using their API. The API is free to use as long as one attributes TMDB as the source of the data and images. 
 
-##Walkthrough
+## Walkthrough
 The detailed explanation of the application is available in the document. A walkthough of the application can be found in the following video
 
-##Contriubutions
+## Contriubutions
 This project will require the support of GitHub Community in the future to leverage it to new heights. Contributions will be enabled soon. 
