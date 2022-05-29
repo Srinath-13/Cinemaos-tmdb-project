@@ -3,7 +3,7 @@
 Cinemaos is a movie recommendation application which is inspired the design of the most popular streaming application, i.e Netflix. This application incorporates a large library of movies which are dynamically fetched from the database of [TMDB](https://www.themoviedb.org/) and a robust recommendation system which reads the users behaviour in terms of search,filters,genres,casts,crews,movies,run time, release year and what not. This application is built using React JS Framework which makes use of the JavaScript language. This application is tailored specifically for Website.
 
 ## Run this Application
-Markup: *
+Markup: *clone the repository
 In the project directory, you can run:
 
 ### `npm start`
