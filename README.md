@@ -3,46 +3,40 @@
 Cinemaos is a movie recommendation application which is inspired the design of the most popular streaming application, i.e Netflix. This application incorporates a large library of movies which are dynamically fetched from the database of [TMDB](https://www.themoviedb.org/) and a robust recommendation system which reads the users behaviour in terms of search,filters,genres,casts,crews,movies,run time, release year and what not. This application is built using React JS Framework which makes use of the JavaScript language. This application is tailored specifically for Website.
 
 ## Run this Application
-Markup : *clone the repository
-         *clone the repositroy
+To run this application via source code:
+* Clone the repository
+* In the project directory, install the dependencies using ### `npm i`
+* Run the application in development mode using ### `npm start` (Open [http://localhost:3000](http://localhost:3000) to view it in your browser.)
 
-In the project directory, you can run:
+##Technologies used
+The application was developed using the following technologies
+* [React JS v18.1.0](https://reactjs.org/)
+* HTML5 and CSS3
+* Firebase
 
-### `npm start`
+##Dependencies
+All the dependencies used for the application can be found in the [package.json](https://github.com/Srinath-13/Cinemaos-tmdb-project/blob/master/package.json) file. They are:
+* @material-ui/core: 4.12.4
+* @reduxjs/toolkit: 1.8.1
+* @testing-library/jest-do: 5.16.4
+* @testing-library/react: 13.2.0
+* @testing-library/user-event: 14.2.0
+* axios: 0.27.2
+* firebase: 9.8.1
+* react: 18.1.0
+* react-dom: 18.1.0
+* react-redux: 8.0.1
+* react-router: 5.2.0
+* react-router-dom: 5.2.0
+* react-scripts: 5.0.1
+* styled-components: 5.3.5
+* web-vitals: 2.1.4
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##License
+All the data with respect to the movies are sourced from [TMDB](https://www.themoviedb.org/) using their API. The API is free to use as long as one attributes TMDB as the source of the data and images. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##Walkthrough
+The detailed explanation of the application is available in the document. A walkthough of the application can be found in the following video
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+##Contriubutions
+This project will require the support of GitHub Community in the future to leverage it to new heights. Contributions will be enabled soon. 
