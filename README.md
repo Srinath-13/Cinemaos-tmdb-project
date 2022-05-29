@@ -5,8 +5,8 @@ Cinemaos is a movie recommendation application which is inspired the design of t
 ## Run this Application
 To run this application via source code:
 * Clone the repository
-* In the project directory, install the dependencies using ### `npm i`
-* Run the application in development mode using ### `npm start` (Open [http://localhost:3000](http://localhost:3000) to view it in your browser.)
+* In the project directory, install the dependencies using `npm i`
+* Run the application in development mode using `npm start` (Open [http://localhost:3000](http://localhost:3000) to view it in your browser.)
 
 ## Technologies used
 The application was developed using the following technologies
