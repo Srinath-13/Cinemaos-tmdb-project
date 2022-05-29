@@ -1,0 +1,143 @@
+.row__poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 250px;
+    transition: transform 450ms;
+    margin-right: 10px;
+}
+
+.row__posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row__poster:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+.row__posterlarge {
+    max-height: 300px;
+}
+
+.row__posterlarge:hover {
+    transform: scale(1.09);
+    opacity: 1;
+}
+
+.row {
+    margin-left: 20px;
+    color: white;
+}
+
+.tag {
+    color: white;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 50px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.row__movie {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie__image {
+    width: 200px;
+    padding: 10px;
+}
+
+.movie__name {
+    width: 200px;
+}
+
+.tag_movie {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    background-color: none;
+    border-radius: 50px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #111;
+    font-weight: bold;
+}
+
+.tag_movie>center {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.click__details {
+    height: 100%;
+    margin: 20px 20px 20px 20px;
+}
+
+.click__title>h1 {
+    color: #fff;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.click__image {
+    width: 35%;
+    left: 0;
+    float: left;
+}
+
+.click__image__style {
+    width: 100%;
+    object-fit: contain;
+}
+
+.click__info {
+    width: 60%;
+    color: #fff;
+    float: right;
+}
+
+.click__card {
+    height: 100%;
+    float: left;
+}
+
+.click__info>h3 {
+    font-weight: 100;
+}
+
+.click__title>h3 {
+    font-weight: 100;
+}
+
+.fadeRight {
+    height: 7.4rem;
+    background-image: linear-gradient( 180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+}
+
+@media screen and (max-width:1000px) {
+    .click__image {
+        float: none;
+        width: 60%;
+    }
+    .click__info {
+        float: none;
+        width: 100%;
+    }
+}
+
+.arrow {
+    right: 2px;
+    position: absolute;
+}

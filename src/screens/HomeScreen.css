@@ -1,0 +1,23 @@
+.navigation_buttons {
+    position: absolute;
+    top: 205px;
+    left: 90px;
+}
+
+.tags {
+    color: white;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tags:hover {
+    border: 2px solid #e50914;
+    background-color: #e50914;
+    transition: 200ms;
+}

@@ -1,0 +1,166 @@
+.search {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: #fff;
+    font-family: inherit;
+    position: absolute;
+    right: 20px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.search:focus {
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.search::placeholder {
+    color: #fff;
+}
+
+#tags {
+    width: 80%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.tag {
+    color: white;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 50px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tag:hover {
+    border: 2px solid #e50914;
+    background-color: #e50914;
+    transition: 200ms;
+}
+
+.tap {
+    color: white;
+    border: 2px solid #e50914;
+    padding: 10px 20px;
+    background-color: #e50914;
+    border-radius: 50px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tag.highlight {
+    background-color: red;
+}
+
+.restrict {
+    width: 50%;
+}
+
+.sorter {
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 50px;
+}
+
+.searcher {
+    top: 1.6%;
+    right: 5%;
+    position: fixed;
+    z-index: 1;
+}
+
+.full {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.rows {
+    padding-top: 20px;
+    color: white;
+    width: 99%;
+    display: flex;
+}
+
+.row__searchers::-webkit-scrollbar {
+    display: none;
+}
+
+.row__searchers {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    object-fit: contain;
+    /* padding: 20px; */
+}
+
+@media screen and (max-width:1000px) {
+    .searcher {
+        top: 1.6%;
+        right: 10%;
+        position: fixed;
+        z-index: 1;
+    }
+}
+
+#tags {
+    width: 80%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.tagger {
+    color: white;
+    border: 2px solid #fff;
+    padding: 2px 20px;
+    background-color: black;
+    border-radius: 50px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tagger:hover {
+    border: 2px solid #e50914;
+    background-color: #e50914;
+    transition: 200ms;
+}
+
+.tapper {
+    color: white;
+    border: 2px solid #e50914;
+    padding: 10px 20px;
+    background-color: #e50914;
+    border-radius: 50px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tagger.highlight {
+    background-color: red;
+}
+
+.big {
+    padding-left: 25px;
+    padding-top: 10px;
+}

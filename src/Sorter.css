@@ -1,0 +1,28 @@
+#tags {
+    width: 80%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.tag {
+    color: white;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 50px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tag.highlight {
+    background-color: red;
+}
+
+.restrict {
+    width: 50%;
+}

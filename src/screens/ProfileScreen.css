@@ -1,0 +1,83 @@
+.profileScreen {
+    height: 100vh;
+    color: white;
+    padding-top: 250px;
+    background: url("/public/images/misc/home-bg.jpg");
+    background-size: cover;
+}
+
+.profileScreen__body {
+    width: 400px;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: top 8%;
+    max-width: 800px;
+    background-color: #111;
+    padding: 10px;
+}
+
+.imgg {
+    object-fit: contain;
+    width: 20%;
+    left: 50;
+    right: 50;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.profileScreen__body>h1 {
+    font-size: 30px;
+    font-weight: 400;
+    /* border-bottom: 1px solid #282c2d; */
+    margin-bottom: 20px;
+}
+
+.profileScreen__info {
+    /* display: flex; */
+    left: 50;
+}
+
+.profileScreen__info>img {
+    height: 100px;
+}
+
+.profileScreen__details {
+    color: white;
+    flex: 1;
+}
+
+.profileScreen__details>h2 {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 0.5rem 1rem;
+    /* border-radius: 50px; */
+    font-size: 1rem;
+    color: #fff;
+    font-family: inherit;
+    /* position: absolute; */
+    left: 50;
+    width: 200px;
+    object-fit: contain;
+}
+
+.profileScreen__signOut {
+    background-color: transparent;
+    border: 2px solid #e50914;
+    padding: 0.5rem 1rem;
+    /* border-radius: 50px; */
+    font-size: 1rem;
+    color: #fff;
+    font-family: inherit;
+    /* position: absolute; */
+    left: 50;
+    width: 235px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.profileScreen__signOut:hover {
+    outline: 0;
+    background-color: #e50914;
+    transition: 300ms;
+}
